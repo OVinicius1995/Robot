@@ -1,7 +1,7 @@
 
 
 def welcome(name):
-    return"Ola" + name + ", bem vindo!"
+    return"Ola " + name + ", bem vindo!"
 
-result = welcome("  Vinicius")
+result = welcome("Vinicius")
 print(result)

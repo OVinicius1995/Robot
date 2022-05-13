@@ -5,4 +5,4 @@ Library     app.py
 
 Deve retornar mensagem de boas vindas
     ${result}=          Welcome     Vinicius
-    Should Be equal     ${result}    OlaVinicius, bem vindo!
+    Should Be equal     ${result}    Ola Vinicius, bem vindo!
